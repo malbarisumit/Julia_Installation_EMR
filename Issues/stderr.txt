@@ -1,0 +1,157 @@
+WARNING: Running pip install with root privileges is generally not a good idea. Try `__main__.py install --user` instead.
+WARNING: Running pip install with root privileges is generally not a good idea. Try `__main__.py install --user` instead.
+Command "/bin/python3 -u -c "import setuptools, tokenize;__file__='/mnt/tmp/pip-build-q3etu_8t/psutil/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-dzvf_b41-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /mnt/tmp/pip-build-q3etu_8t/psutil/
+WARNING: Running pip install with root privileges is generally not a good idea. Try `__main__.py install --user` instead.
+  Installing known registries into `/usr/local/share/julia/v1.6.2`
+       Added registry `General` to `/usr/local/share/julia/v1.6.2/registries/General`
+   Resolving package versions...
+   Installed WinReg ────────────────────── v0.3.1
+   Installed IteratorInterfaceExtensions ─ v1.0.0
+   Installed Compat ────────────────────── v3.31.0
+   Installed OrderedCollections ────────── v1.4.1
+   Installed TableTraits ───────────────── v1.0.1
+   Installed DataStructures ────────────── v0.18.9
+   Installed JavaCall ──────────────────── v0.7.7
+   Installed Spark ─────────────────────── v0.5.1
+    Updating `/usr/local/share/julia/v1.6.2/environments/v1.6/Project.toml`
+  [e3819d11] + Spark v0.5.1
+    Updating `/usr/local/share/julia/v1.6.2/environments/v1.6/Manifest.toml`
+  [34da2185] + Compat v3.31.0
+  [864edb3b] + DataStructures v0.18.9
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [494afd89] + JavaCall v0.7.7
+  [bac558e1] + OrderedCollections v1.4.1
+  [e3819d11] + Spark v0.5.1
+  [3783bdb8] + TableTraits v1.0.1
+  [1b915085] + WinReg v0.3.1
+  [0dad84c5] + ArgTools
+  [56f22d72] + Artifacts
+  [2a0f44e3] + Base64
+  [ade2ca70] + Dates
+  [8bb1440f] + DelimitedFiles
+  [8ba89e20] + Distributed
+  [f43a241f] + Downloads
+  [b77e0a4c] + InteractiveUtils
+  [b27032c2] + LibCURL
+  [76f85450] + LibGit2
+  [8f399da3] + Libdl
+  [37e2e46d] + LinearAlgebra
+  [56ddb016] + Logging
+  [d6f4376e] + Markdown
+  [a63ad114] + Mmap
+  [ca575930] + NetworkOptions
+  [44cfe95a] + Pkg
+  [de0858da] + Printf
+  [3fa0cd96] + REPL
+  [9a3f8284] + Random
+  [ea8e919c] + SHA
+  [9e88b42a] + Serialization
+  [1a1011a3] + SharedArrays
+  [6462fe0b] + Sockets
+  [2f01184e] + SparseArrays
+  [10745b16] + Statistics
+  [fa267f1f] + TOML
+  [a4e569a6] + Tar
+  [8dfed614] + Test
+  [cf7118a7] + UUIDs
+  [4ec0a83e] + Unicode
+  [deac9b47] + LibCURL_jll
+  [29816b5a] + LibSSH2_jll
+  [c8ffd9c3] + MbedTLS_jll
+  [14a3606d] + MozillaCACerts_jll
+  [83775a58] + Zlib_jll
+  [8e850ede] + nghttp2_jll
+  [3f19e933] + p7zip_jll
+    Building Spark → `/usr/local/share/julia/v1.6.2/scratchspaces/44cfe95a-1eb2-52ea-b672-e2afdf69b78f/7e1ea83d0b89cddef23f8e834fe74359b573b5aa/build.log`
+ERROR: Error building `Spark`: 
+/usr/local/apache-maven-3.8.1/bin/mvn
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for sparkjl:sparkjl:jar:0.1
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-enforcer-plugin @ line 349, column 15
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.codehaus.mojo:build-helper-maven-plugin @ line 353, column 15
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin net.alchim31.maven:scala-maven-plugin @ line 383, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 387, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< sparkjl:sparkjl >---------------------------
+[INFO] Building sparkjl 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+Downloading from maven-default-http-blocker: http://0.0.0.0/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): transfer failed for http://0.0.0.0/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): transfer failed for https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:10 min
+[INFO] Finished at: 2021-07-27T16:25:22-07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Error resolving version for plugin 'org.apache.maven.plugins:maven-source-plugin' from the repositories [local (/home/hadoop/.m2/repository), maven-default-http-blocker (http://0.0.0.0/), central (https://repo.maven.apache.org/maven2)]: Plugin not found in any plugin repository -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginVersionResolutionException
+ERROR: LoadError: failed process: Process(`mvn clean package -Dspark.version=2.4.7 -Dscala.version=2.11.12 -Dscala.binary.version=2.11`, ProcessExited(1)) [1]
+
+Stacktrace:
+ [1] pipeline_error
+   @ ./process.jl:525 [inlined]
+ [2] run(::Cmd; wait::Bool)
+   @ Base ./process.jl:440
+ [3] run
+   @ ./process.jl:438 [inlined]
+ [4] (::var"#1#2")()
+   @ Main /usr/local/share/julia/v1.6.2/packages/Spark/9bsuG/deps/build.jl:15
+ [5] cd(f::var"#1#2", dir::String)
+   @ Base.Filesystem ./file.jl:106
+ [6] top-level scope
+   @ /usr/local/share/julia/v1.6.2/packages/Spark/9bsuG/deps/build.jl:14
+ [7] include(fname::String)
+   @ Base.MainInclude ./client.jl:444
+ [8] top-level scope
+   @ none:5
+in expression starting at /usr/local/share/julia/v1.6.2/packages/Spark/9bsuG/deps/build.jl:14
+Stacktrace:
+  [1] pkgerror(msg::String)
+    @ Pkg.Types /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Types.jl:55
+  [2] (::Pkg.Operations.var"#82#87"{Bool, Pkg.Types.Context, String, Pkg.Types.PackageSpec})()
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1048
+  [3] withenv(::Pkg.Operations.var"#82#87"{Bool, Pkg.Types.Context, String, Pkg.Types.PackageSpec}, ::Pair{String, String}, ::Vararg{Pair{String, B} where B, N} where N)
+    @ Base ./env.jl:161
+  [4] (::Pkg.Operations.var"#109#113"{String, Pkg.Operations.var"#82#87"{Bool, Pkg.Types.Context, String, Pkg.Types.PackageSpec}, Pkg.Types.PackageSpec})()
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1546
+  [5] with_temp_env(fn::Pkg.Operations.var"#109#113"{String, Pkg.Operations.var"#82#87"{Bool, Pkg.Types.Context, String, Pkg.Types.PackageSpec}, Pkg.Types.PackageSpec}, temp_env::String)
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1448
+  [6] (::Pkg.Operations.var"#108#112"{Pkg.Operations.var"#82#87"{Bool, Pkg.Types.Context, String, Pkg.Types.PackageSpec}, Pkg.Types.Context, Pkg.Types.PackageSpec, String, Pkg.Types.Project, String})(tmp::String)
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1521
+  [7] mktempdir(fn::Pkg.Operations.var"#108#112"{Pkg.Operations.var"#82#87"{Bool, Pkg.Types.Context, String, Pkg.Types.PackageSpec}, Pkg.Types.Context, Pkg.Types.PackageSpec, String, Pkg.Types.Project, String}, parent::String; prefix::String)
+    @ Base.Filesystem ./file.jl:729
+  [8] mktempdir(fn::Function, parent::String) (repeats 2 times)
+    @ Base.Filesystem ./file.jl:727
+  [9] sandbox(fn::Function, ctx::Pkg.Types.Context, target::Pkg.Types.PackageSpec, target_path::String, sandbox_path::String, sandbox_project_override::Pkg.Types.Project)
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1487
+ [10] build_versions(ctx::Pkg.Types.Context, uuids::Vector{Base.UUID}; verbose::Bool)
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1029
+ [11] build_versions
+    @ /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:956 [inlined]
+ [12] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}, new_git::Vector{Base.UUID}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform)
+    @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/Operations.jl:1245
+ [13] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform, kwargs::Base.Iterators.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/API.jl:204
+ [14] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Iterators.Pairs{Union{}, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/API.jl:80
+ [15] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/API.jl:78
+ [16] #add#22
+    @ /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/API.jl:75 [inlined]
+ [17] add(pkg::Pkg.Types.PackageSpec)
+    @ Pkg.API /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.6/Pkg/src/API.jl:75
+ [18] top-level scope
+    @ none:1
